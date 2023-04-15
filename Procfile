@@ -1,1 +1,1 @@
-web: pm2 start npm --no-automation --no-daemon --name gpt-whatsapp-bot -- run start
+web: pm2 start npm --no-automation --no-daemon --name "my-app-name" -- run start

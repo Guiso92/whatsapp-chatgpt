@@ -1,1 +1,1 @@
-web: google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 --disable-dev-shm-usage npm start
+web: pm2 start npm --no-automation --no-daemon --name gpt-whatsapp-bot -- run start
